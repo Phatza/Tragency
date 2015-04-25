@@ -1,0 +1,98 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+}
+.taille {
+	width: 800px;
+	height: 400px;
+}
+.margin {
+	margin-top: 80px;
+}
+.margin2{
+	margin-top: -50px;
+}
+.jumbotron.back {	
+	padding-left: 40px;
+	background-color: white;
+}
+.col-md-8 {
+	padding-left: 40px;
+}
+.list-group-item.active {
+	color: #FFF;
+	background-color: #222;
+    border-color: #222;
+}
+.list-group-item.active:hover {
+	color: #FFF;
+	background-color: #222;
+    border-color: #222;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFF;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #9D9D9D;
+}
+.navbar-inverse .navbar-brand {
+	color: #FFF;
+}
+.navbar-inverse .navbar-brand:hover {
+	color: #9D9D9D;
+}
+footer {
+	background-color: #222;
+    border-color: #222;
+    font-size: 12px;
+    color: #9D9D9D;
+}
+.btn-default {
+	background-color: #FFF;
+}
+.btn-primary {
+	background-color: #222;
+    border-color: #222;
+}
+.btn-primary:hover {
+	background-color: #333;
+    border-color: #222;
+}
+.col-sm-4.col-md-4 {
+	padding-left: 40px;
+}
+h4 {
+	text-decoration: underline;
+}
+.btn-primary:focus {
+	background-color: #333;
+    border-color: #222;
+}
+a:hover {
+	color: #9D9D9D;
+}
+.color {
+	color: #9D9D9D;
+}
+.icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.flou {
+	color: transparent;
+	text-shadow: 0 0 5px #333;
+}
+table {
+	border: 2px solid #333;
+}
+.btn-lg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.img {
+	margin-bottom: 28px;
+}

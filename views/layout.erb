@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tragency, au coeur du Vietnam</title>
+	<link href="img/glyphicons_free/glyphicons/png/glyphicons-39-airplane.png" rel="icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- barre de navigation  -->
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a class="navbar-brand" href="/">Tragency</a>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-5">
+					<ul class="nav navbar-nav">
+						<li><a href="/">Accueil</a></li>
+						<li><a href="http://www.decouvrirlevietnam.com/" target="blank">Découverte</a></li>
+						<li><a href="http://cuisine.journaldesfemmes.com/recette-vietnam" target="blank">Cuisine</a></li>
+						<li><a href="http://www.geo.fr/voyages/guides-de-voyage/asie/vietnam/%28onglet%29/photos" target="blank">Photos</a></li>
+					</ul>
+				</div> <!-- end.col-md-5 -->
+				<div class="col-md-2"></div>
+				<a href="/liste_inscription"><button class="btn btn-default navbar-btn navbar-right">Participants</button></a>
+			</div> <!-- end.row -->
+		</div> <!-- end.container -->
+	</nav>
+
+	<%= yield %>
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-md-4">
+				    <h4>Agence de voyage</h4>
+				    <p>Ce site a été réalisé dans un cadre purement scolaire et n'a pas de but commercial, par conséquent, aucunes informations présentent n'est valable excepter les liens vers mes réseaux sociaux.</p>
+				</div>
+				<center><div class="col-sm-4 col-md-4 mid">
+				    <h4>Réseaux sociaux</h4>
+				    <a href="https://www.facebook.com/brice.phatza" target="blank"><img src="img/facebook.png"></a>
+				    <a href="https://twitter.com/DatPhatza" target="blank"><img src="img/twitter.png"></a>
+				    <a href="https://github.com/phatza" target="blank"><img src="img/github.png"></a>
+				</div></center>
+				<div class="col-sm-4 col-md-4">
+				    <h4>Languages/Frameworks utilisés</h4>
+				    <ul>
+				    	<a href="http://www.sinatrarb.com/" target="blank"><li class="color">Ruby/Sinatra</li></a>
+				    	<a href="http://www.sqlite.org/" target="blank"><li class="color">Sqlite3</li></a>
+				    	<a href="http://getbootstrap.com/" target="blank"><li class="color">Css/Bootstrap</li></a>
+				    </ul>
+				</div>
+			</div> <!-- end.row -->
+		</div> <!-- end.container -->
+	</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		
+</body>
+</html>
